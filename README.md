@@ -13,7 +13,7 @@ Facebook Already Has And Lets Users Create Api For Chatbots 😪 Tại Đey => [
 
 ### This Api Can Make You Payy Acc Like You Never Have, Pay Attention =))
 
-Note ! If You Want To Read This Api See Document At [Đây Nè](https://github.com/Schmavery/facebook-chat-api).
+Note ! If You Want To Read This Api See Document At [Đây Nè](https://github.com/Anupx0/facebook-chat-api).
 
 ## Download 
 
@@ -117,10 +117,10 @@ login(credentials, (err, api) => {
 });
 ```
 
-Hoặc Dễ Dàng Hơn ( Chuyên Nghiệp ) Bạn Có Thể Dùng => [c3c-fbstate](https://github.com/c3cbot/c3c-fbstate) Để Lấy Fbstate And Rename Lại Thành Apstate Cũng Được ! (appstate.json)
+Or Easier (Professional) You Can Use => [c3c-fbstate](https://github.com/c3cbot/c3c-fbstate) To Get Fbstate And Rename It To Apstate Is Also OK ! (appstate.json)
 
 ------------------------------------
 
 ## FAQS
 
-FAQS => [Link](https://github.com/Schmavery/facebook-chat-api#FAQS)
+FAQS => [Link](https://github.com/Anupx0/facebook-chat-api#FAQS)
