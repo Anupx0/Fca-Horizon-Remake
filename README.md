@@ -1,6 +1,6 @@
 ## Notification !
 
-Lưu Ý! Đây Là Sản Phẩm Được Horizon Remake ( Chính Bởi Facebook-Chat-Api Của Schmavery, Tác Giả Không Chịu Trách Nghiệm Nào ! ), Nếu Có Lỗi Hãy Thử Sử Dụng Sang Sản Phẩm Khác !
+Note! This Is a Horizon Remake Product (By Anup's Facebook-Chat-Api, The Author Is Not Responsible!), If There's Any Error Please Try Using Another Product !
 
 ## Support For : 
 
@@ -9,15 +9,15 @@ Lưu Ý! Đây Là Sản Phẩm Được Horizon Remake ( Chính Bởi Facebook-
 
 # Api Cho ChatBot Messenger
 
-Facebook Đã Có Và Cho Người Dùng Tạo Api Cho Chatbots 😪 Tại Đey => [Đây Nè](https://developers.facebook.com/docs/messenger-platform).
+Facebook Already Has And Lets Users Create Api For Chatbots 😪 Tại Đey => [Đây Nè](https://developers.facebook.com/docs/messenger-platform).
 
-### Api Này Có Thể Khiến Cho Bạn Payy Acc Như Cách Acc Bạn Chưa Từng Có, Hãy Chú Ý Nhé =))
+### This Api Can Make You Payy Acc Like You Never Have, Pay Attention =))
 
-Lưu Ý ! Nếu Bạn Muốn Sài Api Này Hãy Xem Document Tại [Đây Nè](https://github.com/Schmavery/facebook-chat-api).
+Note ! If You Want To Read This Api See Document At [Đây Nè](https://github.com/Schmavery/facebook-chat-api).
 
-## Tải Về 
+## Download 
 
-Nếu Bạn Muốn Sử Dụng, Hãy Tải Nó Bằng Cách:
+If You Want To Use It, Download It By:
 ```bash
 npm i fca-horizon-remake
 ```
@@ -26,11 +26,9 @@ or
 npm install fca-horizon-remake
 ```
 
-Nó Sẽ Tải Vô node_modules (Lib Của Bạn) - Lưu Ý Replit Sẽ Không Hiện Đâu Mà Tìm 😪
-
-### Tải Bản Mới Nhất Hoặc Update
-
-Nếu Bạn Muốn Sử Dụng Phiên Bản Mới Nhất Hay Cập Nhật Thì Hãy Vô Terminal Hoặc Command Promt Nhập :
+It Will Download node_modules (Lib Của Bạn) - Note Replit Will Not Show Where To Find
+### Download Latest Version Or Update
+If You Want To Use The Latest Version Or Update Then Go To Terminal Or Command Prompt Enter :
 ```bash
 npm install fca-horizon-remake@latest
 ```
@@ -39,12 +37,12 @@ Hoặc
 npm i fca-horizon-remake@latest
 ```
 
-## Nếu Bạn Muốn Test Api 
+## If You Want To Test Api 
 
-Lợi Ích Cho Việc Này Thì Bạn Sẽ Không Tốn Thời Gian Pay Acc Và Có Acc 😪
-Hãy Sử Dụng Với Tài Khoản Thử Nghiệm => [Facebook Whitehat Accounts](https://www.facebook.com/whitehat/accounts/).
+Benefits For This You Will Not Spend Time Pay Acc And Have Acc 😪
+Use it with a Demo Account => [Facebook Whitehat Accounts](https://www.facebook.com/whitehat/accounts/).
 
-## Cách Sử Dụng
+## Using
 
 ```javascript
 const login = require("fca-horizon-remake"); // lấy từ lib ra 
@@ -62,18 +60,18 @@ login({email: "Gmail Account", password: "Mật Khẩu Facebook Của Bạn"}, (
 });
 ```
 
-Kết Quả Là Nó Sẽ Nhái Bạn Như Hình Dưới:
+As a result, it will copy you as shown below:
 <img width="517" alt="screen shot 2016-11-04 at 14 36 00" src="https://cloud.githubusercontent.com/assets/4534692/20023545/f8c24130-a29d-11e6-9ef7-47568bdbc1f2.png">
 
-Nếu Bạn Muốn Sử Dụng Nâng Cao Thì Hãy Sử Dụng Các Loại Bot Được Liệt Kê Ở Trên !
+If You Want Advanced Use Then Use Bot Types Listed Above !
 
-## Danh Sách
+## List
 
-Bạn Có Thể Đọc Full Api Tại => [here](DOCS.md).
+You Can Read Full Api At => [here](DOCS.md).
 
-## Cài Đặt Cho Mirai: 
+## Settings For Anup: 
 
-Bạn Cần Vô File Mirai.js,Sau Đó Tìm Đến Dòng
+You need to go to file anup.js, Then Find Line
 ```js
     var login = require('tùy bot'); 
     /* Có thể là :
@@ -90,21 +88,21 @@ Và Thay Nó Bằng:
     var login = require('fca-horizon-remake')
 ```
 
-Sau Đó Thì Chạy Bình Thường Thôi  !
+Then Just Run As Normal  !
 
-## Tự Nghiên Cứu
+## Self-study
 
-Nếu Bạn Muốn Tự Nghiên Cứu Hoặc Tạo Bot Cho Riêng Bạn Thì Bạn Hãy Vô Cái Này Đọc Chức Năng Của Nó Và Cách Sử Dụng => [Link](https://github.com/Schmavery/facebook-chat-api#Unofficial%20Facebook%20Chat%20API)
+If You Want To Research Or Create Your Own Bot Then Go To This Read Its Function And How To Use It => [Link](https://github.com/Schmavery/facebook-chat-api#Unofficial%20Facebook%20Chat%20API)
 
 ------------------------------------
 
-### Lưu Lại Thông Tin Đăng Nhập.
+### Save Login Information.
 
-Để Lưu Lại Thì Bạn Cần 1 Apstate Kiểu (Cookie, etc,..) Để Lưu Lại Hoặc Là Sử Dụng Mã Login Như Trên Để Đăng Nhập !
+To Save You Need 1 Apstate Type (Cookie, etc,..) To Save Or Use Login Code As Above To Login !
 
-Và Chế Độ Này Đã Có Sẵn Trong 1 Số Bot Việt Nam Nên Bạn Cứ Yên Tâm Nhé !
+And This Mode Is Already Available In Some Bots In Vietnam So You Can Rest In Peace !
 
-__Hướng Dẫn Với Appstate__
+__Guide With Appstate__
 
 ```js
 const fs = require("fs");
