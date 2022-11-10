@@ -45,7 +45,7 @@ globalThis.Fca = new Object({
             "PreKey": "",
             "AutoUpdate": true,
             "MainColor": "#9900FF",
-            "MainName": "[ FCA-HZI ]",
+            "MainName": "[ FCA-ANUP ]",
             "Uptime": false,
             "Login2Fa": false,
             "AutoLogin": false,
@@ -1155,9 +1155,9 @@ try {
         Fetch('https://raw.githubusercontent.com/HarryWakazaki/Fca-Horizon-Remake/main/package.json').then(async (/** @type {{ body: { toString: () => string; }; }} */res) => {
             const localVersion = JSON.parse(readFileSync('./node_modules/fca-horizon-remake/package.json')).version;
                 if (Number(localVersion.replace(/\./g,"")) < Number(JSON.parse(res.body.toString()).version.replace(/\./g,"")) ) {
-                    log.warn("[ FCA-HZI ] •",getText(Language.NewVersionFound,JSON.parse(readFileSync('./node_modules/fca-horizon-remake/package.json')).version,JSON.parse(res.body.toString()).version));
+                    log.warn("[ FCA-ANUP ] •",getText(Language.NewVersionFound,JSON.parse(readFileSync('./node_modules/fca-horizon-remake/package.json')).version,JSON.parse(res.body.toString()).version));
                     if (globalThis.Fca.Require.FastConfig.AutoUpdate == true) { 
-                        log.warn("[ FCA-HZI ] •",Language.AutoUpdate);
+                        log.warn("[ FCA-ANUP ] •",Language.AutoUpdate);
                             try {
                                 execSync('npm install fca-horizon-remake@latest', { stdio: 'inherit' });
                                     logger.Success(Language.UpdateSuccess)
