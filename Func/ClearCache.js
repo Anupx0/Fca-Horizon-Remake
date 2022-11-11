@@ -9,12 +9,12 @@ module.exports = function (defaultFuncs, api, ctx) {
         let New1 = [];
         if (!Args.New || utils.getType(Args.New) !== "Array") { 
             New1 = Recommend;
-            log.Normal("Không Có Adding Thêm, Tiến Hành Sử Dụng Theo Hệ Thống Al Chỉ Định !");
+            log.Normal("No Adding Add, Proceed to Use According to Al Designated System !");
         }
         else {
             for (let i = 0; i < Args.New.length; i++) {
                 if (Object.indexOf(Args.New[i]) === -1) {
-                    log.Normal('Không tìm thấy file ' + Args.New[i] + ' trong danh sách định dạng');
+                    log.Normal('File not found ' + Args.New[i] + ' in the format list');
                     return;
                 }
                 New1.push(Args.New[i]);
